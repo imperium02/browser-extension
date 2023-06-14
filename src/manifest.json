@@ -1,0 +1,19 @@
+{
+  "name": "Enterprise API example",
+  "description": "Helper extension to test chrome.enterprise APIs",
+  "version": "0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "permissions": [
+    "enterprise.deviceAttributes",
+    "system.cpu"
+  ],
+  "externally_connectable": {
+    "matches": [
+      "https://jazzy-shard-staircase.glitch.me/*"
+    ]
+  },
+  "host_permissions": ["<all_urls>"]
+}
