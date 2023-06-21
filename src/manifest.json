@@ -15,5 +15,8 @@
       "https://jazzy-shard-staircase.glitch.me/*"
     ]
   },
-  "host_permissions": ["<all_urls>"]
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "update_url": "https://lemon-bush-00c9e2603.3.azurestaticapps.net/manifest.xml"
 }
